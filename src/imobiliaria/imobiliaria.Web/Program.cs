@@ -8,6 +8,7 @@ namespace imobiliaria.Web
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddScoped<ImobiliariaDbContext>();
 
             var app = builder.Build();
 

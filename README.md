@@ -82,4 +82,4 @@ Para garantir que sua imobiliária fosse um sucesso, John precisava de um sistema
 
 Comando para gerar modelos de classe baseado nas tabelas.
 
-  dotnet ef dbcontext scaffold "Server=localhost,1433;Database=ImobiliariaDB;User Id=sa;Password=1q2w3e4r@#$;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer 
+  dotnet ef dbcontext scaffold "Server=NATHAN-PC\SQLEXPRESS01;Database=ImobiliariaDB;Integrated Security=True;TrustServerCertificate=True" Microsoft.EntityFrameworkCore.SqlServer 
